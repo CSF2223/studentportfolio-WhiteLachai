@@ -159,6 +159,19 @@ footer {
     display: block;
 }
 
+.filler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 80vh;
+}
+
+
+
+
+
 @media (min-width:800px) {
     .hero {
         flex-direction: row;
